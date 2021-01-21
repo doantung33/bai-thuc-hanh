@@ -1,8 +1,10 @@
 package model;
 
-public class DanhBa {
+import java.io.Serializable;
+
+public class DanhBa implements Serializable {
     private int soDienThoai;
-    private String ten ;
+    private String ten;
     private int tuoi;
     private String gioiTinh;
     private String diaChi;

@@ -14,7 +14,7 @@ public class TinhToan {
     public void add(DanhBa danhBa) {
         danhBas=DocVaGhiFile.readFile();
         danhBas.add(danhBa);
-        DocVaGhiFile.writerFile(danhBa);
+//        DocVaGhiFile.writerFile(danhBa);
     }
     public void delete(int soDT) {
         for (DanhBa d :

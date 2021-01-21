@@ -59,7 +59,6 @@ public class Main {
 
         private static void add() {
             Scanner scanner= new Scanner(System.in);
-            DanhBa danhBa= new DanhBa();
             System.out.println("Nhập số điện thoại");
             int soDT= scanner.nextInt();
             danhBa.setSoDienThoai(soDT);
